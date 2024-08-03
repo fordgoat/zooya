@@ -8,15 +8,15 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7280404452:AAHcCyl1m9Dm9MmLuwzavmxV67xSvKd9_2o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7439771375:AAHyMLutgLhHLt8yhMDfd-pCEOJaIcVEhjY")
 APP_ID = int(os.environ.get("APP_ID", "29486311"))
 API_HASH = os.environ.get("API_HASH", "ffdc688dc4eee8d2585cb24155188432")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001950756152"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "6303393441"))
 PORT = os.environ.get("PORT", "8080")
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://kikoy:kikoy6969@cluster0.vooxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://reon:reon@cluster0.h52cpph.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "zooya")
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001634845793"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001689707975"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
